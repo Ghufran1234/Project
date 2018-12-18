@@ -14,3 +14,15 @@
 Route::get('/', function () {
     return view('home');
 });
+
+
+Route::get('/football', function () {
+    return view('football');
+});
+
+
+Route::get('/', function () {
+    return view('home');
+});
+
+Route::post('/football/add', 'EventsController@submit');
