@@ -5,8 +5,8 @@
 
     {!! Form::open(['url' => 'football/add']) !!}
     <div class="form">
-        {{Form::label('event name', 'event name')}}
-        {{Form::text('event name', '',['class' => 'form-control', 'placeholder' => 'Enter event name'])}}
+        {{Form::label('name', 'name')}}
+        {{Form::text('name', '',['class' => 'form-control', 'placeholder' => 'Enter event name'])}}
 
     </div>
     <div class="form">

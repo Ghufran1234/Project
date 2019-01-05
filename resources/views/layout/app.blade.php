@@ -17,11 +17,10 @@
 
 <div class="row">
     <div class = "col-md-8 col-lg-8">
+       @include('incl.Errors')
         @yield('content')
     </div>
-    <div class = "col-md-4 col-lg-4">
-        @include('Incl.sidebar')
-    </div>
+
 </div>
 </div>
 

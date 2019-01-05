@@ -25,4 +25,13 @@ Route::get('/', function () {
     return view('home');
 });
 
+
+Route::get('/edit/{id}', 'EventsController@edit');
+
+Route::put('/edit/update/{id}', 'EventsController@update');
+
+Route::get('/delete/{id}', 'EventsController@delete');
+
+Route::get('/events' , 'EventsController@getEvents');
+
 Route::post('/football/add', 'EventsController@submit');
