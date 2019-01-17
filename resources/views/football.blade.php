@@ -1,7 +1,7 @@
 @extends('layout.app')
 
 @section('content')
-    <h1>Football</h1>
+    <h1>Create Event</h1>
 
     {!! Form::open(['url' => 'football/add']) !!}
     <div class="form">

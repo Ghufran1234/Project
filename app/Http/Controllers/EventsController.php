@@ -6,6 +6,7 @@ use App\Http\Requests\TaskRequest;
 use Illuminate\Http\Request;
 use App\Event;
 use DB;
+use Illuminate\Support\Facades\Input;
 
 class EventsController extends Controller
 {
@@ -73,7 +74,19 @@ class EventsController extends Controller
 
     }
 
+public function searc()
+{
+    $q= Input::get('q');
+    if ($q !=""){
+        $event = Event::where('name', 'LIKE', '%' . $q . '%')
+            ->orWhere('Location', 'LIKE', '%' . $q . '%')
+            ->get();
+        if(count($event)> 0)
+            return view('search')->withDetails($event)->withQuery($q);
+    }
+    return view('search')->withMessage("No events found");
 
+}
 
 
 

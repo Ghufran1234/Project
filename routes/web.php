@@ -25,6 +25,9 @@ Route::get('/', function () {
     return view('home');
 });
 
+Route::get('/search', function () {
+    return view('search');
+});
 
 Route::get('/edit/{id}', 'EventsController@edit');
 
@@ -35,3 +38,8 @@ Route::get('/delete/{id}', 'EventsController@delete');
 Route::get('/events' , 'EventsController@getEvents');
 
 Route::post('/football/add', 'EventsController@submit');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Route::post('/search', 'EventsController@searc');
