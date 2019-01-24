@@ -23,7 +23,10 @@
                 <a class="nav-link" href="/login">Login</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/register">Logout</a>
+                <a class="nav-link" href="/register">Register</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{{ route('logout') }}">Logout</a>
             </li>
 
         </ul>
