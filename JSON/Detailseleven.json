@@ -1,0 +1,56 @@
+[
+    {
+
+        "name":"St jhon fishers",
+        "location":"Dewsbury",
+        "Adress":"Oxford Road, Dewsbury, WF12 4LL",
+        "photo":"<img src=images/sf.jpg>",
+        "Price":"£40",
+        "type":"Outdoor",
+        "Number":"01924 527000",
+        "locationeId": 1
+    },
+    {
+
+        "name":"Batley Sports Centre",
+        "location":"Batley",
+        "Adress":"Windmill Ln, Batley, WF72 0QD",
+        "photo":"<img src=images/bs.jpg>",
+        "Price":"£50",
+        "type":"Outdoor",
+        "Number":"01924 565059",
+        "locationeId": 2
+    },
+    {
+        "name":"Savile Town Sports Field",
+        "location":"Dewsbury",
+        "Adress":"7 Saville Road, Dewsbury, WF12 9LP",
+        "photo":"<img src=images/st.jpeg>",
+        "Price":"FREE",
+        "type":"Outdoor",
+        "Number":"01924 980786",
+        "locationeId": 3
+    },
+
+    {
+        "name":"Thornhill Lees Field",
+        "location":"Dewsbury",
+        "Adress":"Centenery Square, Dewsbury, WF12 3IO",
+        "photo":"<img src=images/st.jpeg>",
+        "Price":"FREE",
+        "type":"Outdoor",
+        "Number":"01924 786545",
+        "locationeId": 4
+    },
+    {
+        "name":"Thorn Park",
+        "location":"Dewsbury",
+        "Adress":"Thorn Lane, Dewsbury, WF12 3IO",
+        "photo":"<img src=images/st.jpeg>",
+        "Price":"FREE",
+        "type":"Outdoor",
+        "Number":"01924 897654",
+        "locationeId": 5
+    }
+
+]

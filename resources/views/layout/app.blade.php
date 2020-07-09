@@ -11,7 +11,7 @@
 
 <body>
 
-@include('incl.navbar')
+
 
 <div class="container">
 

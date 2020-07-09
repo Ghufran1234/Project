@@ -20,6 +20,19 @@ Route::get('/football', function () {
     return view('football');
 });
 
+Route::get('/list', function () {
+    return view('list');
+});
+
+Route::get('/location', function () {
+    return view('location');
+});
+
+
+Route::get('/locatione', function () {
+    return view('locatione');
+});
+
 
 Route::get('/', function () {
     return view('home');
@@ -39,6 +52,7 @@ Route::get('/events' , 'EventsController@getEvents');
 
 Route::post('/football/add', 'EventsController@submit');
 Auth::routes();
+
 
 Route::get('/logout' ,'Auth\LoginController@logout')->name('logout');
 
